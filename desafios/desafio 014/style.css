@@ -44,7 +44,20 @@ main {
 }
 
 #redes-sociais img {
-    width: 60px;
+    width: 50px;
     margin: 5px;
+    margin: 10px;
     border-radius: 50%;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.445);
+}
+
+#redes-sociais a {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+#redes-sociais img:hover {
+    border: 2px solid rgba(211, 211, 211, 0.438);
+   
 }
