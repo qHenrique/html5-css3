@@ -1,3 +1,9 @@
-@charset "UTF_8";
+@charset "UTF-8";
 
-/* Para telas em pé (portraid) /*
+/* Para telas em pé (portraid) */
+
+
+body {
+    background-image: url(../imagens/cev-portrait.jpg);
+    
+}
