@@ -3,3 +3,58 @@
 /* Versão Para todas as media */
 
 
+@media screen and (min-width: 768px) and (max-width: 1024px) { /* Tablet */
+
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    #tablet {
+        display: block;
+        margin: auto;
+    }
+    
+    #phone {
+        display: none;
+
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) { /* Desktok */
+    body {
+        background-image: url('../imagens/back-pc.jpg')
+    }
+    #tablet {
+        display: none;
+    }
+    
+    #phone {
+        display: none;
+    }
+
+    #pc {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url('../imagens/back-tv.jpg');
+    }
+    #tablet {
+        display: none;
+    }
+    
+    #phone {
+        display: none;
+    }
+
+    #pc {
+        display: block;
+        margin: auto;
+    }
+
+}
+
+
